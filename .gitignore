@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Python (por si se suma un backend)
+venv/
+.venv/
+__pycache__/
+db.sqlite3
+
+# Cache de Vite / tests
+.vite/
+coverage/
